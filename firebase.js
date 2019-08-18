@@ -1,10 +1,11 @@
 firebase.initializeApp({
-  apiKey: "AIzaSyCCs8TGFbwaFhi5iirjdohRBALKvLwN-U0",
-  authDomain: "checkit-a2cfe.firebaseapp.com",
-  databaseURL: "https://checkit-a2cfe.firebaseio.com",
-  projectId: "checkit-a2cfe",
-  storageBucket: "checkit-a2cfe.appspot.com",
-  messagingSenderId: "121304597067",
+  apiKey: "AIzaSyAU7z2nh3hSS1gCy0MXkMxcQqaHlkljfFk",
+  authDomain: "checkit-95307.firebaseapp.com",
+  databaseURL: "https://checkit-95307.firebaseio.com",
+  projectId: "checkit-95307",
+  storageBucket: "checkit-95307.appspot.com",
+  messagingSenderId: "1045440825060",
+  appId: "1:1045440825060:web:11001fcfcac030c6"
 });
 
 const db = firebase.firestore();

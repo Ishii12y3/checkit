@@ -63,10 +63,8 @@
       },
       */
       computed: {
-        tasksOrderByIndex() {
+        OrderByIndex() {
           return this.tasks.sort((a, b) => a.index - b.index);
-        },
-        usersOrderByIndex() {
           return this.users.sort((a, b) => a.index - b.index);
         },
       },

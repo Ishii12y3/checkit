@@ -20,7 +20,7 @@
           <div class="list">
             <div class="list-item">
               <div class="columns">
-                <div class="column" v-for="user in usersOrderByIndex">{{ user.name.substr(0,2) }}</div>
+                <div class="column" v-for="user in usersOrderByIndex">{{ user.name.substr(0,20) }}</div>
                 <div class="column is-6">やること</div>
               </div>
             </div>
@@ -52,6 +52,16 @@
           db.collection('users').doc(user.id).update({ progress });
         },
       },
+      /*
+      computed: {
+        tasksOrderByIndex() {
+          return this.tasks.sort((a, b) => a.index - b.index);
+        },
+        usersOrderByIndex() {
+          return this.users.sort((a, b) => a.index - b.index);
+        },
+      },
+      */
       computed: {
         tasksOrderByIndex() {
           return this.tasks.sort((a, b) => a.index - b.index);

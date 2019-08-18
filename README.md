@@ -2,7 +2,7 @@
 グループ進捗確認ツール
 
 ## demo
-https://tamura2004.github.io/checkit/
+https://ishii12y3.github.io/checkit/
 
 
 ## ８月１８日もくもく会資料
